@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(153, 60, 10);
+}
+
+p {
+    font-weight: bold;
+    color: rgb(39, 5, 69);
+    background-color: aquamarine;
+
+}
+
+/* image size */
+img {
+    width: 200px;
+}

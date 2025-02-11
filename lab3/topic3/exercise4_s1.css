@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #081b29;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.top, .middle, .bottom {
+    background-color: #102a3f;
+    width: 50%;
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #102a3f;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.top nav {
+    background-color: #1e90ff;
+    padding: 0px;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+.middle {
+    padding: 20px;
+    width: 50%;
+}
+
+article h2 {
+    color: #1e90ff;
+}
+
+hr {
+    border: 1px solid #1e90ff;
+}
+
+.intro p {
+    line-height: 1.6;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #1e90ff;
+}
+
+figcaption {
+    text-align: center;
+    color: #1e90ff;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+
+#languages ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#languages ul li {
+    display: flex;
+    margin: 10px;
+    background-color: #0d2538;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    gap: 20px;
+    flex: 1 1 auto;
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.aTags {
+    color: #471eff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aTags:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.bottom {
+    background-color: #102a3f;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.intro, #picture, #languages, #hobbies, #CV, #links {
+    background-color: #1e90ff;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+
+    
+}
+
+#picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
