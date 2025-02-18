@@ -1,0 +1,22 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+}
+
+table {
+    border: solid 0.1rem black;
+}
+
+th {
+    background-color: rgb(7, 101, 128);
+    color: white;
+}
+
+tr {
+    background-color: rgb(6, 55, 69);
+}
+
+td {
+    padding: 0.5rem;
+    color: grey;
+}
