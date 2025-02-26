@@ -28,7 +28,6 @@ body {
     background-color: #102a3f;
     color: #fff;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
     text-align: center;
     margin-top: 10px;
@@ -39,6 +38,7 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     color: #ffffff;
+    font-family: Nunito, cursive;
 }
 
 .top nav {
@@ -132,6 +132,7 @@ ul li {
     color: #471eff;
     text-decoration: none;
     font-weight: bold;
+    font-family: Inter, cursive;
 }
 
 .aTags:hover {
