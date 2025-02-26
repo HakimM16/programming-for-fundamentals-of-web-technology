@@ -217,8 +217,8 @@ footer p {
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 0.25fr .75fr 0.25fr;
+    display: flex;
+    justify-content: center;    
     gap: 20px;
 }
 
@@ -309,8 +309,8 @@ footer p {
 }
 
 .skill-item {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
