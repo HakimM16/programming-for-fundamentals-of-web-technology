@@ -167,6 +167,7 @@ footer p {
     vertical-align: middle;
 }
 
+
 .intro, #picture, #languages, #hobbies, #CV, #links, #interests, #education, #skills {
     background-color: #1e90ff;
     border-radius: 25px;
@@ -350,35 +351,5 @@ footer p {
     font-weight: bold;
 }
 
-@media screen and (max-width: 1778px) {
-    .bottom1 {
-        display: none;
-    }
-}
 
-/* @media screen and (max-width: 1470px) {
-    #picture {
-        display: none;
-    }
-    .top_in_middle {
-        grid-template-columns: 1fr;
-    }
-    .main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    body {
-        font-size: 10px;
-    }
-    nav ul {
-        display: none;
-    }
-}
 
-@media screen and (max-width: 1000px) {
-    .middle {
-        display: none;
-    }
-    .main {
-        grid-template-columns: 1fr 1fr;
-    }
-} */
