@@ -72,3 +72,54 @@
 
 
 }
+
+@media screen and (max-width: 1300px) {
+    .top_in_middle {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .middle {
+        margin-top: 50px;
+    }
+
+    .main {
+        display: grid;
+        grid-template-areas: 
+            "middle"
+            "left"
+            "right";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        width: 100%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .top nav  {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .left {
+        margin-right: 0; 
+    }
+
+    .right {
+        margin-left: 0;
+    }
+
+    .box {
+        padding: 10px 0px;
+    }
+
+    .intro {
+        max-width: 800px;
+    }
+}
+
