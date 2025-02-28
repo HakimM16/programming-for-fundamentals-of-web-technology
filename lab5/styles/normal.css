@@ -167,6 +167,10 @@ footer p {
     vertical-align: middle;
 }
 
+.description {
+    padding: 10px;
+}
+
 
 .intro, #picture, #languages, #hobbies, #CV, #links, #interests, #education, #skills {
     background-color: #1e90ff;
