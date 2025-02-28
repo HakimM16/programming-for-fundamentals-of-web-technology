@@ -186,6 +186,14 @@ footer p {
     padding: 50px;
 }
 
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #languages, #interests, #skills {
     display: grid;
     grid-template-rows: .5fr 1fr;

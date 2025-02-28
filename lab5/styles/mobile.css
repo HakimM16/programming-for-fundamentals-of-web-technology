@@ -2,4 +2,19 @@
     /*
     make the divs interests-grid and languages-grid to be displayed as a grid with 1fr columns and 6 1fr rows
     */
+
+    .interests-grid, .languages-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .interests-grid {
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .languages-grid {
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #languages, #interests {
+        grid-template-rows: 100px 1fr;
+    }
 }
