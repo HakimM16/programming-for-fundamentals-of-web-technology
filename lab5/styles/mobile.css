@@ -1,22 +1,56 @@
-@media screen and (max-width: 768px) {
-    /*
-    make the divs interests-grid and languages-grid to be displayed as a grid with 1fr columns and 6 1fr rows
-    */
+@media (max-width: 768px) {
+    /* Stack all elements vertically */
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
 
+    /* Make all sections full width */
+    .left, .middle, .right {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Adjust grid containers */
+    .left, .right {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    /* Fix text scaling */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Ensure images don't overflow */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Fix any card or box layouts */
+    .box, .box-left, .box-right {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* Adjust grids for interests, languages, etc. */
     .interests-grid, .languages-grid {
         display: grid;
-        grid-template-columns: 1fr;
-    }
-    .interests-grid {
-        grid-template-rows: repeat(4, 1fr);
-    }
-    .languages-grid {
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 
-    #languages, #interests {
-        grid-template-rows: 100px 1fr;
+    /* Make cards more mobile-friendly */
+    .interest-card, .language-card {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
-/* Make the whole body smaller on a mobile screen */
