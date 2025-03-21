@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Topic 7 Example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="/Class_Demo/JavaScript/demo.js" defer></script>
+</head>
+
+<body>
+    <header class="bg-dark text-white">
+        <h1 id="page-title" class="text-center">Party Invitation List</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 card-body">
+                <form id="myform">
+                    <div class="form-inline mb-3">
+                        <input type="text" id="item-input" class="form-control">
+                        <input type="submit" class="btn btn-warning float-right">
+                    </div>
+                </form>
+                <!-- Button Demo -->
+                <!--<button id="button1" class="btn btn-warning">Click</button>-->
+                <div id="output"></div>
+            </div>
+            <div class="col-sm-6 card-body">
+                <ul id="items" class="list-group">
+                    <li class="list-group-item">
+                        Peter Parker
+                        <button type="button" class="btn btn-warning float-right delete">
+                            X
+                        </button>
+                    </li>
+                    <li class="list-group-item">
+                        Bruce Banner
+                        <button type="button" class="btn btn-warning float-right delete">
+                            X
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
