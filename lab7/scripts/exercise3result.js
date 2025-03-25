@@ -7,15 +7,21 @@ const getResults = () => {
     }
 
     let greeting = document.getElementById('greeting');
-    greeting.innerHTML = `Hello ${storedFname} ${storedLname}`;
+    let info = document.createElement('h4');
+    info.textContent = `Hello ${storedFname} ${storedLname}`;
+    greeting.appendChild(info);
+    
 }
 
 const removeResults = () => {
     localStorage.removeItem('firstname');
     localStorage.removeItem('lastname');
+    document.querySelector('h4').remove();
 
     let greeting = document.getElementById('greeting');
-    greeting.innerHTML = 'Hello';
+    let info = document.createElement('h4');
+    info.textContent = 'Hello';
+    greeting.appendChild(info);
 }
 
 document.addEventListener('DOMContentLoaded', getResults);
